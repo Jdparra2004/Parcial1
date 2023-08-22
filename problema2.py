@@ -8,6 +8,7 @@ Created on Agust 22 at 6:12 am
 '''
 
 import numpy as np 
+
 #variables y datos
 n = 0
 v = np.array([1, 7, -5, 0, 7, 2, 9, 7])
