@@ -8,27 +8,18 @@ Created on Agust 22 at 6:12 am
 '''
 
 import numpy as np 
-from numpy import random
-
-
 #variables y datos
-n = 1
-m = n*2
-m = int(m)
-a = 1
+n = 0
+v = np.array([1, 7, -5, 0, 7, 2, 9, 7])
+vector = []
 
-v = [1, 7, -5, 0, 7, 2, 9, 7]
-print(v)
-
-i = n
-
-
-if i == n:
-    i += 1
-    i = a
-    print(f"el número n = {n}, se encuentra en la posición: {i, n-1}")
-else: 
-    print(f"El número {n}, no se encuentra en el vector")
+for i in range(0, len(v)):
+    if v[i] == n:
+        vector.append(i)
+    print(f"El número n = {n}, se encuentra en la posición {vector}")
+    print(f"El número n = {n}, está en el vector {len(vector)} posiciones")
+else:
+    print(f"El número n = {n}, no se encuentra en el vector")
 
 
 
